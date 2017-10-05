@@ -1,0 +1,55 @@
+{
+  "name": "OD500_PROJECT_NAME",
+  "total_companies": 3,
+  "total agencies": 2,
+  "children": [{
+    "name": "FEDERAL",
+    "usedBy_count": 2,
+    "children": [{
+      "name": "FEDERAL_AGENCY_1",
+      "usedBy_count": 2,
+      "children": [{
+        "name": "FEDERAL_DATA_USER_1",
+        "companyCategory": ["COMPANY_CATEGORY"],
+        "companyType": "COMPANY_TYPE",
+        "city": "COMPANY_CITY",
+        "country": "COMPANY_COUNTRY",
+        "yearFounded": "YEAR FOUNDED",
+        "businessModel": ["BUSINESS_MODEL_1"],
+        "state": "COMPANY_STATE",
+        "description": "",
+        "descriptionShort": ""
+      }, {
+        "name": "FEDERAL_DATA_USER_2",
+        "companyCategory": ["COMPANY_CATEGORY"],
+        "companyType": "COMPANY_TYPE",
+        "city": "COMPANY_CITY",
+        "country": "COMPANY_COUNTRY",
+        "yearFounded": "YEAR FOUNDED",
+        "businessModel": ["BUSINESS_MODEL_1"],
+        "state": "COMPANY_STATE",
+        "description": "",
+        "descriptionShort": ""
+      }]
+    }]
+  }, {
+    "name": "PROVINCIAL",
+    "usedBy_count": 1,
+    "children": [{
+      "name": "PROVINCIAL_AGENCY_1",
+      "usedBy_count": 1,
+      "children": [{
+        "name": "PROVINCIAL_DATA_USER_1",
+        "companyCategory": ["COMPANY_CATEGORY"],
+        "companyType": "COMPANY_TYPE",
+        "city": "COMPANY_CITY",
+        "country": "COMPANY_COUNTRY",
+        "yearFounded": "YEAR FOUNDED",
+        "businessModel": ["BUSINESS_MODEL_1"],
+        "state": "COMPANY_STATE",
+        "description": "",
+        "descriptionShort": ""
+      }]
+    }]
+  }]
+}
